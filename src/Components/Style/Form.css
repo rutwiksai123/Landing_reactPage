@@ -1,0 +1,76 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white ;
+    height: 28rem;
+    width:100%;
+    padding: 2.5rem 2.8rem;
+    text-align:justify;
+    color: #323452;
+    border-radius: 0.2rem;
+    /* box-shadow: 0 0 9px  white; */
+}
+.form_heading{
+    font-size: 1.5rem;
+}
+.form_paragraph{
+    margin: 1rem 0;
+}
+input{
+    height: 3rem;
+    margin: 0.8rem 0;
+    background-color: #F6F6F7;
+    border: 1px solid rgba(104, 100, 100, 0.192);
+}
+.term_condition{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.checkBox{
+    width: 20px;
+    margin: 0.3rem ;
+    cursor: pointer;
+    border: none;
+}
+.check_conditions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#4ac582;
+    font-weight: 700;
+}
+.registration_btn{
+    background-color: #03b352;
+    padding: 1rem;
+}
+.registration_btn:hover{
+    background-color: #035f2c;
+}
+button:hover{
+    cursor: pointer;
+}
+::placeholder{
+    color: gray;
+    padding: 0 1rem;
+}
+input:focus{
+    outline: none;
+}
+@media only screen and (max-width: 800px) {
+    .form-container{
+        display: block;
+        width: 95vw;
+    }
+    input{
+        display: block;
+        margin: 0;
+        width: 100%;
+        height: 2.5rem;
+        margin: 0.8rem 0;
+    }
+    .registration_btn{
+        padding: 0.7rem;
+    }
+}
