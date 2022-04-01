@@ -6,10 +6,10 @@ const Form = () => {
     <div className='form-container' >
       <h1 className='form_heading'>Register Now, it's <sapn style={{ color: "#22936C" }}>Free</sapn></h1>
       <p className='form_paragraph'>Complete the below form to get instant access.</p>
-      <input style={{padding:"1rem"}} type="email" placeholder='Email' />
-      <input style={{padding:"1rem"}} type="text" placeholder='Username'/>
-      <input style={{padding:"1rem"}} type="password" placeholder='Password'/>
-      <input style={{padding:"1rem"}} type="password" placeholder='Confirm Password'/>
+      <input style={{padding:"0.5rem"}} type="email" placeholder='Email' />
+      <input style={{padding:"0.5rem"}} type="text" placeholder='Username'/>
+      <input style={{padding:"0.5rem"}} type="password" placeholder='Password'/>
+      <input style={{padding:"0.5rem"}} type="password" placeholder='Confirm Password'/>
       <div className='term_condition'>
         <div className='check_conditions'>  
           <input className='checkBox' type="checkbox" name="" id="" /><span>Terms & Conditions</span>

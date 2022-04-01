@@ -27,10 +27,10 @@ a:hover {
 .main_container {
   display: flex;
   color: white;
-  margin: 1rem;
+  margin:0 1rem;
   align-items: center;
   /* border: 1px solid white; */
-  padding: 2.5rem 6rem;
+  padding: 2.2rem 6rem;
 }
 @media only screen and (max-width: 1000px) {
   .navbar-Display {
